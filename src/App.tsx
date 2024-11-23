@@ -1,19 +1,11 @@
-import ListGroup from "./componenets/ListGroup";
+import Alert from "./componenets/Alert";
 
 function App() {
-  let items = ["New York", "Delhi", "Karachi", "Paris", "London", "Austria"];
-
-  const handleSelectitem = (item: string) => {
-    console.log(item);
-  };
-
   return (
     <div>
-      <ListGroup
-        items={items}
-        heading="Cities"
-        onSelectitem={handleSelectitem}
-      />
+      <Alert>
+        <span>"Hello World"</span>
+      </Alert>
     </div>
   );
 }
