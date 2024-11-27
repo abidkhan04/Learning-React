@@ -1,11 +1,9 @@
-import Alert from "./componenets/Alert";
+import Button from "./componenets/Button";
 
 function App() {
   return (
     <div>
-      <Alert>
-        <span>"Hello World"</span>
-      </Alert>
+      <Button onClick={() => console.log("Clicked")}>My Button</Button>
     </div>
   );
 }
